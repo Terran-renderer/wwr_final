@@ -61,6 +61,9 @@ nav a:link, nav a:visited {
 main section{
   text-align: center;
 }
+main section img{
+  box-sizing: border-box;
+}
 #background{
   height: 725px;
 }
@@ -101,6 +104,7 @@ h4{
 .book:hover, .join:hover{
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  border-radius:5px;
 }
 #background{
   background-color: var(--paragraph-background-color);
@@ -144,6 +148,9 @@ footer .social img{
 }
 .rivers-card, .camping-card, .rapids-card{
   margin: 200px 0;
+}
+.card-img{
+  border:10px solid black;
 }
 .icon{
   display: block;
