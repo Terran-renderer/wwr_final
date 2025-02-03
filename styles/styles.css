@@ -33,7 +33,24 @@ nav a{
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding:35px;
+  color: var(--base-text-color);
+}
+nav a:hover{
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
 }
 #hero-msg h1, #hero-msg h4{
   text-align: center;
@@ -50,14 +67,19 @@ main section{
 body{
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 0;
   font-size: 18px;
   text-align: center;
   background-color: var(--base-text-color);
   border: 2px solid blue
 }
+h2{
+  margin:0;
+}
 .home-title{
   color:var(--base-text-color);
+  font-size: 2em;
+  margin-top:10px;
 }
 header{
   padding: 1em;
@@ -68,31 +90,13 @@ header{
 h4{
   color:var(--base-text-color);
 }
-nav a:hover{
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
-}
-nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
-  list-style-type: none;
-  display: flex;
-  
-}
-nav a{
-  text-decoration:none ;
-  text-align: center;
-  color: var(--base-text-color);
-}
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
-}
 .book, .join{
   background-color: var(--nav-background-color);
   color:var(--base-text-color);
   text-decoration: none;
+  font-size:18px;
+  padding:15px 30px;
+  margin-top:50px;
 }
 .book:hover, .join:hover{
   color: var(--nav-hover-link-color);
@@ -103,15 +107,20 @@ nav a:link, nav a:visited {
 }
 .msg{
   background-color: var(--paragraph-background-color);
+  font-size: .8em;
+  line-height: 1.5em;
+  padding:35px;
 }
 .msg h2{
   color:var(--base-text-color);
 }
 .msg p{
   color:var(--base-text-color);
+  padding-bottom:15px;
 }
 footer{
   background-color: var(--paragraph-background-color);
+  padding:25px 50px;
 }
 footer a{
   text-align: center;
@@ -125,20 +134,30 @@ footer a:hover{
 }
 footer p{
   font-size: 1.2em;
+  margin-top:200px;
 }
 footer p a:hover{
   text-decoration: underline;
 }
-
+footer .social img{
+  padding-top:15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
 .icon{
   display: block;
   margin: 0 auto;
   max-width: 300px;
   width:80px;
+  padding-top:10px;
 }
 .logo{
 width:250px;
 height:200px;
+}
+#logo_link{
+  padding-top:5px;
 }
 #hero_img{
   width:100%;
