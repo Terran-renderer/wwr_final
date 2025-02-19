@@ -30,7 +30,7 @@
 }
 .home-grid{
   display: grid;
-  grid-template-columns: repeat(11, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 nav a{
   text-align: center;
@@ -142,6 +142,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  justify-items: center;
 }
 footer a{
   text-align: center;
@@ -161,7 +162,7 @@ footer p a:hover{
   text-decoration: underline;
 }
 footer .social img{
-  padding-top:15px;
+  background-color: none;
 }
 .rivers-card, .camping-card, .rapids-card{
   margin: 200px 0;
