@@ -85,8 +85,8 @@ h2{
 header{
   display:grid;
   grid-template-columns:150px auto;
-  padding: 1em;
-  text-align: center;
+ /*padding: 1em;
+  text-align: center;*/
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
 }
@@ -218,27 +218,22 @@ height:200px;
   grid-row:5/8;
 }
 .card-img, .rivers-card {
-  width: 100%;
   grid-column:2/4;
   grid-row:2/3;
 }
 .card-img, .camping-card {
-  width: 100%;
   grid-column: 5/7;
   grid-row:2/3;
 }
 .card-img, .rapids-card {
-  width: 100%;
   grid-column:8/10;
   grid-row:2/3;
 }
 .msg{
-  width: 100%;
   grid-column:6/10;
   grid-row:6/7;
 }
 #background {
-  width: 100%;
   grid-column:1/11;
   grid-row:4/9;
 }
