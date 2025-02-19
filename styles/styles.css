@@ -28,6 +28,10 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+.home-grid{
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+}
 nav a{
   text-align: center;
   padding:1em;
