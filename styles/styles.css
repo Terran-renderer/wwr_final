@@ -204,7 +204,6 @@ height:100px;
 #hero-img{
   width:100%;
   grid-column: 1/4;
-  grid-row:2/3;
   z-index: -1;
 }
 #hero-msg {
