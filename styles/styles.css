@@ -237,11 +237,6 @@ z-index:1;
   grid-column:1/11;
   grid-row:4/9;
 }
-.mountains, .msg {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
