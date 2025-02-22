@@ -46,12 +46,13 @@ nav a:hover{
 }
 nav {
   background-color: var(--nav-background-color);
- /* line-height: 3em;
+  line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-  list-style-type: none;*/
+  list-style-type: none;
   display: flex;
   justify-content:space-around;
+  z-index:1;
   
 }
 nav a:link, nav a:visited {
@@ -186,11 +187,13 @@ footer .social img{
 .logo{
 width: 100px;
 height:100px;
+z-index:1;
 }
 #logo_link{
   padding-top:5px;
   justify-self:center;
   align-self:center;
+  z-index:1;
 }
 #hero {
   display: grid;
@@ -204,6 +207,7 @@ height:100px;
 #hero_img{
   width:100%;
   grid-column: 1/4;
+  grid-row:2/3;
   z-index: -1;
 }
 #hero-msg {
