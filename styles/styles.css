@@ -195,7 +195,7 @@ z-index:1;
   align-self:center;
   z-index:1;
 }
-#hero {
+#hero{
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top:-100px;
@@ -236,6 +236,11 @@ z-index:1;
 #background {
   grid-column:1/11;
   grid-row:4/9;
+}
+.mountains, .msg {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
