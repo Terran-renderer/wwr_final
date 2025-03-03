@@ -32,6 +32,15 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+nav {
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  z-index:1;  
+}
 nav a{
   text-align: center;
   padding:1em;
@@ -44,15 +53,6 @@ nav a{
 nav a:hover{
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
-}
-nav {
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
-  list-style-type: none;
-  display: flex;
-  justify-content:space-around;
-  z-index:1;  
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
