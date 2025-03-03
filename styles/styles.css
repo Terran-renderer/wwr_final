@@ -52,12 +52,21 @@ nav {
   list-style-type: none;
   display: flex;
   justify-content:space-around;
-  z-index:1;
-  
+  z-index:1;  
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
+.logo{
+  width: 100px;
+  height:100px;
+  z-index:1;
+}
+/*#logo-link{
+    justify-self:center;
+    align-self:center;
+    z-index:1; 
+}*/
 .button-box{
   text-align: center;
 }
@@ -184,16 +193,6 @@ footer .social img{
   max-width: 300px;
   width:80px;
   padding-top:10px;
-}
-.logo{
-width: 100px;
-height:100px;
-z-index:1;
-}
-#logo-link{
-  justify-self:center;
-  align-self:center;
-  z-index:1;
 }
 #hero{
   display: grid;
