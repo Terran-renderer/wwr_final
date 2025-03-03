@@ -188,14 +188,12 @@ footer .social img{
 .logo{
 width: 100px;
 height:100px;
-z-index:2;
-
+z-index:1;
 }
 #logo-link{
   justify-self:center;
   align-self:center;
   z-index:1;
-  background-color: var(--nav-background-color);
 }
 #hero{
   display: grid;
