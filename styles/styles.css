@@ -40,7 +40,13 @@ nav{
   justify-content:space-around;
   font-size: 1.2em;
 }
-
+nav a{
+  text-align: center;
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding:35px;
+}
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
