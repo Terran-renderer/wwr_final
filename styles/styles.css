@@ -47,6 +47,10 @@ nav a{
   text-decoration: none;
   padding:35px;
 }
+nav a:hover{
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
