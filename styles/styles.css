@@ -62,11 +62,11 @@ nav a:link, nav a:visited {
   height:100px;
   z-index:1;
 }
-/*#logo-link{
+#logo-link{
     justify-self:center;
     align-self:center;
     z-index:1; 
-}*/
+}
 .button-box{
   text-align: center;
 }
