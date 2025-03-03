@@ -189,6 +189,7 @@ footer .social img{
 width: 100px;
 height:100px;
 z-index:1;
+background-color: var(--nav-background-color);
 }
 #logo-link{
   padding-top:5px;
