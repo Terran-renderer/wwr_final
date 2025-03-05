@@ -37,9 +37,6 @@ body{
   max-width: 1600px;
 }
 header{
-  display:grid;
-  grid-template-columns: 150px auto;
-  padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
@@ -54,10 +51,8 @@ header{
   align-self: center;
 }
 nav{
-  width:100%;
-  text-align: center;
-  display:flex;
-  justify-content:space-around;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-size: 1.2em;
   list-style-type: none;
   line-height: 3em;
@@ -65,16 +60,11 @@ nav{
 }
 nav a{
   text-align: center;
-  padding:1em;
-  min-width: 120px;
   text-decoration: none;
-  padding:35px;
   color: var(--base-text-color);
-  background-color: var(--nav-background-color);
 }
 nav a:hover{
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
