@@ -64,13 +64,12 @@ nav a{
   color: var(--base-text-color);
 }
 nav a:hover{
-  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 .logo{
-  padding:none;
   width: 100px;
   height:100px;
   z-index:1;
@@ -205,9 +204,6 @@ footer p{
 }
 footer p a:hover{
   text-decoration: underline;
-}
-footer .social img{
-  background-color: none;
 }
 /*SMALL SCREEN*/
 @media screen and (max-width: 900px) {
