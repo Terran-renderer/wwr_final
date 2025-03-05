@@ -126,10 +126,22 @@ nav a:link, nav a:visited {
   background-color: var(--nav-hover-background-color);
   border-radius:5px;
 }
+.home-title{
+  color:var(--base-text-color);
+  font-size: 2em;
+  margin-top:10px;
+}
+.button-box{
+  text-align: center;
+}
 main section{
   text-align: center;
 }
+main section img{
+  box-sizing: border-box;
+}
 #background{
+  height: 725px;
   background-color: var(--paragraph-background-color);
 }
 
@@ -180,26 +192,10 @@ main section{
 
 /*CONTENT*/
 /*
-.button-box{
-  text-align: center;
-}
-main section{
-  text-align: center;
-}
-main section img{
-  box-sizing: border-box;
-}
-#background{
-  height: 725px;
-}
 h2{
   margin:0;
 }
-.home-title{
-  color:var(--base-text-color);
-  font-size: 2em;
-  margin-top:10px;
-}
+
 
 h4{
   color:var(--base-text-color);
