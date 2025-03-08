@@ -44,6 +44,11 @@ header{
 .home-grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.mountain-grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 #logo_link {
   padding-top: 5px;
@@ -87,6 +92,7 @@ nav a:link, nav a:visited {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top:-100px;
+  margin-bottom: 100px;
 }
 #hero-box{
   grid-column:1/4;
@@ -167,6 +173,22 @@ main section img{
 .rapids-card {
   grid-column:9/11;
   grid-row:2/3;
+}
+.goat-card{
+  grid-column:3/5;
+  grid-row:2/3;
+}
+.snake-card {
+  grid-column: 6/8;
+  grid-row:2/3;
+}
+.lizard-card {
+  grid-column:9/11;
+  grid-row:2/3;
+}
+.canyon-card {
+  grid-column:3/5;
+  grid-row:3/4;
 }
 #background{
   height: 725px;
