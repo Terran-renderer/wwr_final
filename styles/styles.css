@@ -44,11 +44,11 @@ header{
 .home-grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
 }
 .mountain-grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 #logo_link {
   padding-top: 5px;
