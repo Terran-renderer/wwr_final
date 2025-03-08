@@ -140,6 +140,9 @@ main section{
 main section img{
   box-sizing: border-box;
 }
+#main_idea{
+  margin-left: 200px;
+}
 .rivers-card, .camping-card, .rapids-card{
   margin: 200px 0;
 }
