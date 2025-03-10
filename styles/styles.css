@@ -163,13 +163,13 @@ textarea {
 }
 .button {
   padding-left: 90px;
-}
-button {
-  margin-left: 0.5em;
   background-color: var(--nav-background-color);
   color:var(--base-text-color);
   text-decoration: none;
   font-size:18px;
+}
+button {
+  margin-left: 0.5em;
 }
 .button:hover{
   color: var(--nav-hover-link-color);
