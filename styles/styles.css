@@ -171,7 +171,6 @@ button {
   color:var(--base-text-color);
 }
 .button:hover{
-  color: var(--nav-hover-link-color);
   border-radius: 5px;
 }
 .home-grid{
